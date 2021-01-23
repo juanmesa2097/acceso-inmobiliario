@@ -1,4 +1,5 @@
 import Head from "next/head";
+import FeaturedHouses from "../components/FeaturedHouses/FeaturedHouses";
 import FilterBox from "../components/FilterBox/FilterBox";
 import Footer from "../components/Footer/Footer";
 import HeroCarousel from "../components/HeroCarousel/HeroCarousel";
@@ -17,6 +18,8 @@ export default function Home() {
         <HeroCarousel></HeroCarousel>
         <FilterBox />
       </div>
+
+      <FeaturedHouses />
 
       <Footer />
     </div>

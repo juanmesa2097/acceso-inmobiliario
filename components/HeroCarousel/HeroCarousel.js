@@ -27,7 +27,7 @@ const HeroCarousel = () => {
             style={img1Styles}
           >
             <h1 className="max-w-4xl mb-6 text-6xl font-semibold leading-snug text-center text-white">
-              Your customers will love you one minute from now.
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
             </h1>
             <p className="max-w-xl mb-6 text-lg text-center text-white">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
@@ -45,7 +45,7 @@ const HeroCarousel = () => {
             style={img2Styles}
           >
             <h1 className="max-w-4xl mb-6 text-6xl font-semibold leading-snug text-center text-white">
-              Your customers will love you one minute from now.
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
             </h1>
             <p className="max-w-xl mb-6 text-lg text-center text-white">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
@@ -63,7 +63,7 @@ const HeroCarousel = () => {
             style={img3Styles}
           >
             <h1 className="max-w-4xl mb-6 text-6xl font-semibold leading-snug text-center text-white">
-              Your customers will love you one minute from now.
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
             </h1>
             <p className="max-w-xl mb-6 text-lg text-center text-white">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente

@@ -1,4 +1,4 @@
-import { DownOutlined, UpOutlined } from "@ant-design/icons";
+import { DownOutlined, SearchOutlined, UpOutlined } from "@ant-design/icons";
 import { Button, Col, Form, Input, Row, Select } from "antd";
 import React, { useState } from "react";
 
@@ -96,7 +96,7 @@ const FilterBox = (props) => {
         </Row>
         <Row>
           <Col span={24} style={{ textAlign: "right" }}>
-            <Button type="primary" htmlType="submit">
+            <Button type="primary" htmlType="submit" icon={<SearchOutlined />}>
               Buscar
             </Button>
             <Button
