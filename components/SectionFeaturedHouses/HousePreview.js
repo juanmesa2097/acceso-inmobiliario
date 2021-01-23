@@ -44,7 +44,7 @@ const HousePreview = ({ info }) => {
         </div>
 
         <div className="absolute flex items-center -top-1 right-3">
-          <Tooltip placement="right" title="Apartamento destacado">
+          <Tooltip placement="right" title="Inmueble destacado">
             <div
               className={`${styles.featured} flex items-center px-2 py-3 text-white bg-green-500 rounded-lg relative`}
             >

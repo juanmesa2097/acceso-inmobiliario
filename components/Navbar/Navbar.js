@@ -10,9 +10,9 @@ const Navbar = () => {
 
     listener = document.addEventListener("scroll", (e) => {
       let scrolled = document.scrollingElement.scrollTop;
-      var currentPosition = window.pageYOffset;
+      // var currentPosition = window.pageYOffset;
 
-      if (scrolled >= 600) {
+      if (scrolled >= 100) {
         if (scrollState !== "scrolled") {
           setScrollState("scrolled");
         }
