@@ -1,0 +1,27 @@
+.item:hover .cover {
+  transform: scale(1.2);
+  transition: transform ease 14s;
+  will-change: transform;
+}
+
+.featured::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 16px solid theme("colors.green.500");
+  border-right: 26px solid transparent;
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+}
+
+.featured::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 16px solid theme("colors.green.500");
+  border-left: 26px solid transparent;
+  position: absolute;
+  bottom: -9px;
+  right: 0;
+}

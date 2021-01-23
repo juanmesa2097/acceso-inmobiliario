@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Nacary Apartment",
+    "address": "Poblado. Carrera 43 B N° 11-10",
+    "coverImg": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "type": "OnSale",
+    "owner": "María Gonzalez",
+    "ownerPicture": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parkingLots": 1,
+    "area": 150,
+    "price": "320M"
+  },
+  {
+    "id": 2,
+    "name": "Lorem ipsum dolor",
+    "address": "Poblado. Carrera 43 B N° 11-10",
+    "coverImg": "https://images.pexels.com/photos/1918291/pexels-photo-1918291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "type": "OnSale",
+    "owner": "Carlitos Perez",
+    "ownerPicture": "https://images.pexels.com/photos/1183434/pexels-photo-1183434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parkingLots": 1,
+    "area": 150,
+    "price": "120M"
+  },
+  {
+    "id": 3,
+    "name": "Lorem ipsum dolor",
+    "address": "Poblado. Carrera 43 B N° 11-10",
+    "coverImg": "https://images.pexels.com/photos/6143349/pexels-photo-6143349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "type": "OnSale",
+    "owner": "Carlitos Perez",
+    "ownerPicture": "https://images.pexels.com/photos/4588428/pexels-photo-4588428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "parkingLots": 1,
+    "area": 150,
+    "price": "120M"
+  }
+]

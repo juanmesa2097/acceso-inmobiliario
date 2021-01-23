@@ -1,21 +1,27 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import FeaturedHouses from "../components/FeaturedHouses/FeaturedHouses";
+import FilterBox from "../components/FilterBox/FilterBox";
+import Footer from "../components/Footer/Footer";
+import HeroCarousel from "../components/HeroCarousel/HeroCarousel";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div className="container h-full">
+    <div className="h-full bg-gray-50">
       <Head>
         <title>Welcome to next starter</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="mt-16 text-4xl font-bold text-center">
-          Welcome to <a href="https://nextjs.org">Next.js starter!</a>
-        </h1>
-      </main>
+      <div className="relative">
+        <Navbar />
+        <HeroCarousel></HeroCarousel>
+        <FilterBox />
+      </div>
 
-      <footer className={styles.footer}></footer>
+      <FeaturedHouses />
+
+      <Footer />
     </div>
   );
 }
