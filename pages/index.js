@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import HeroCarousel from "../components/HeroCarousel/HeroCarousel";
 import Navbar from "../components/Navbar/Navbar";
 import SectionFeaturedHouses from "../components/SectionFeaturedHouses/SectionFeaturedHouses";
+import SectionValues from "../components/SectionValues/SectionValues";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
       </section>
 
       <SectionFeaturedHouses />
-      {/* <SectionByCity /> */}
+
+      <SectionValues />
 
       <Footer />
     </div>

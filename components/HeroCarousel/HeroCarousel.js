@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./HeroCarousel.module.css";
 
 const HeroCarousel = () => {
-  const [autoplay, setAutoplay] = useState(false);
+  const [autoplay, setAutoplay] = useState(true);
 
   const img1Styles = {
     backgroundImage:
