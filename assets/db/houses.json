@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Nacary Apartment",
+    "address": "Poblado. Carrera 43 B N° 11-10",
+    "coverImg": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "type": "OnSale",
+    "Owner": "Anastasia Tya",
+    "ownerPicture": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": 150,
+    "price": "320M"
+  }
+]
