@@ -148,10 +148,7 @@ const HousePreview = ({ info }) => {
         <footer className="flex items-center justify-between py-6 border-t border-gray-100">
           <div>
             <span className="block text-sm text-gray-400">Precio</span>
-            <span className="text-3xl font-semibold">
-              <span className="text-lg font-semibold">$</span>
-              {price}
-            </span>
+            <span className="text-2xl font-semibold">${price}</span>
           </div>
           <Button type="primary" shape="round" size="large">
             ¡Me interesa!
