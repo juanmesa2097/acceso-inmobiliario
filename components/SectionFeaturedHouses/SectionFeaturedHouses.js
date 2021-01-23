@@ -10,7 +10,7 @@ import HousePreview from "./HousePreview";
 
 setTwoToneColor("#d4af37");
 
-const FeaturedHouses = (props) => {
+const SectionFeaturedHouses = (props) => {
   const [houses, setHouses] = useState([]);
 
   useEffect(() => {
@@ -53,4 +53,4 @@ const FeaturedHouses = (props) => {
   );
 };
 
-export default FeaturedHouses;
+export default SectionFeaturedHouses;

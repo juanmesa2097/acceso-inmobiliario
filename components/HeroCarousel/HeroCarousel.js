@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./HeroCarousel.module.css";
 
 const HeroCarousel = () => {
-  const [autoplay, setAutoplay] = useState(true);
+  const [autoplay, setAutoplay] = useState(false);
 
   const img1Styles = {
     backgroundImage:
@@ -19,7 +19,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <>
+    <main>
       <Carousel dotPosition="right" effect="fade" autoplay={autoplay}>
         <div>
           <div
@@ -76,7 +76,7 @@ const HeroCarousel = () => {
           </div>
         </div>
       </Carousel>
-    </>
+    </main>
   );
 };
 

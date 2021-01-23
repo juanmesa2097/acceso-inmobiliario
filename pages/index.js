@@ -1,9 +1,9 @@
 import Head from "next/head";
-import FeaturedHouses from "../components/FeaturedHouses/FeaturedHouses";
 import FilterBox from "../components/FilterBox/FilterBox";
 import Footer from "../components/Footer/Footer";
 import HeroCarousel from "../components/HeroCarousel/HeroCarousel";
 import Navbar from "../components/Navbar/Navbar";
+import SectionFeaturedHouses from "../components/SectionFeaturedHouses/SectionFeaturedHouses";
 
 export default function Home() {
   return (
@@ -13,13 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="relative">
+      <section className="relative">
         <Navbar />
-        <HeroCarousel></HeroCarousel>
+        <HeroCarousel />
         <FilterBox />
-      </div>
+      </section>
 
-      <FeaturedHouses />
+      <SectionFeaturedHouses />
+      {/* <SectionByCity /> */}
 
       <Footer />
     </div>
