@@ -27,7 +27,7 @@ const SectionFeaturedHouses = (props) => {
     <section className="container pt-72 pb-36">
       <h1 className="flex items-center mb-24 text-3xl font-semibold">
         <StarTwoTone className="mr-6" />
-        Propiedades destacadas
+        Propiedades más recientes
       </h1>
 
       <div

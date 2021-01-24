@@ -3,8 +3,9 @@ import {
   StarFilled,
   VideoCameraOutlined,
 } from "@ant-design/icons";
-import { Button, Tooltip } from "antd";
+import { Tooltip } from "antd";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import styles from "./HousePreview.module.css";
 
@@ -150,9 +151,11 @@ const HousePreview = ({ info }) => {
             <span className="block text-sm text-gray-400">Precio</span>
             <span className="text-2xl font-semibold">${price}</span>
           </div>
-          <Button type="primary" shape="round" size="large">
-            ¡Me interesa!
-          </Button>
+          <Link href="property">
+            <a className="leading-6 ant-btn-primary ant-btn ant-btn-lg ant-btn-round">
+              ¡Me interesa!
+            </a>
+          </Link>
         </footer>
       </div>
     </article>

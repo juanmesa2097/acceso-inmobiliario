@@ -7,7 +7,7 @@ const SectionValues = () => {
     <section
       className={`${styles.pattern} relative overflow-hidden text-gray-100 bg-gray-900 pt-36 pb-14`}
     >
-      <div class={styles.wave}>
+      <div className={styles.wave}>
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
