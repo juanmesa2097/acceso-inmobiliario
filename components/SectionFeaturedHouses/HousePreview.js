@@ -152,7 +152,10 @@ const HousePreview = ({ info }) => {
             <span className="text-2xl font-semibold">${price}</span>
           </div>
           <Link href="property">
-            <a className="leading-6 ant-btn-primary ant-btn ant-btn-lg ant-btn-round">
+            <a
+              href="/"
+              className="leading-6 ant-btn-primary ant-btn ant-btn-lg ant-btn-round"
+            >
               ¡Me interesa!
             </a>
           </Link>
@@ -160,6 +163,22 @@ const HousePreview = ({ info }) => {
       </div>
     </article>
   );
+};
+
+HousePreview.propTypes = {
+  info: PropTypes.shape(
+    name,
+    address,
+    coverImg,
+    type,
+    owner,
+    ownerPicture,
+    bedrooms,
+    bathrooms,
+    area,
+    parkingLots,
+    price
+  ),
 };
 
 export default HousePreview;
