@@ -1,85 +1,39 @@
-import Link from "next/link";
-import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React from "react";
+import ActiveLink from "../ActiveLink/ActiveLink";
 import styles from "./Header.module.css";
 
 const Header = () => {
-  let listener = null;
-  const [scrollState, setScrollState] = useState("scrolled");
-  const router = useRouter();
-
-  // if (router.pathname === "/") {
-  //   useEffect(() => {
-  //     listener = document.addEventListener("scroll", (e) => {
-  //       let scrolled = document.scrollingElement.scrollTop;
-
-  //       if (scrolled >= 100) {
-  //         if (scrollState !== "scrolled") {
-  //           setScrollState("scrolled");
-  //         }
-  //       } else {
-  //         if (scrollState !== "top") {
-  //           setScrollState("top");
-  //         }
-  //       }
-  //     });
-  //     return () => {
-  //       document.removeEventListener("scroll", listener);
-  //     };
-  //   }, [scrollState]);
-  // }
-
   return (
     <header
-      className={`${styles.header}  ${
-        scrollState === "scrolled" ? styles.scrolled : ""
-      } fixed z-10 w-full h-16`}
+      className={`${styles.header} container fixed top-0 z-10 w-full transform translate-y-4 shadow-2xl rounded-2xl left-2/4 -translate-x-2/4`}
     >
       <div className="container flex items-center justify-between h-16">
-        <div className="flex items-center"></div>
+        <div className="flex items-center h-full"></div>
         <nav className="flex items-center h-full">
-          <Link href="/">
-            <a
-              className={`${styles.item} mr-8 font-semibold uppercase relative h-full flex items-center`}
-            >
+          <ActiveLink href="/" activeClassName="text-gray-900 border-blue-800">
+            <a className="relative flex items-center h-full mr-8 font-semibold text-gray-400 border-b-4 border-transparent">
               Home
             </a>
-          </Link>
-          <Link href="/properties">
-            <a
-              href=""
-              className={`${styles.item} mr-8 font-semibold uppercase relative h-full flex items-center`}
-            >
+          </ActiveLink>
+          <ActiveLink
+            href="/properties"
+            activeClassName="text-gray-900 border-blue-900"
+          >
+            <a className="relative flex items-center h-full mr-8 font-semibold text-gray-400 border-b-4 border-transparent">
               Comprar
             </a>
-          </Link>
-          <Link href="/">
-            <a
-              href=""
-              className={`${styles.item} font-semibold uppercase relative h-full flex items-center`}
-            >
+          </ActiveLink>
+          <ActiveLink
+            href="/contact"
+            activeClassName="text-gray-900 border-blue-900"
+          >
+            <a className="relative flex items-center h-full mr-8 font-semibold text-gray-400 border-b-4 border-transparent">
               Contacto
             </a>
-          </Link>
+          </ActiveLink>
         </nav>
       </div>
     </header>
-    // <nav className="container absolute top-0 z-10 w-full transform translate-y-4 bg-white rounded-lg left-2/4 -translate-x-2/4 ">
-    //   <div className="container flex items-center justify-between h-16">
-    //     <div className="flex items-center"></div>
-    //     <div className="flex items-center">
-    //       <a href="#aboutUs" className="mr-4">
-    //         Inicio
-    //       </a>
-    //       <a href="" className="mr-4">
-    //         Comprar
-    //       </a>
-    //       <a href="" className="">
-    //         Contacto
-    //       </a>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 };
 
